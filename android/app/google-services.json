@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "219802738782",
+    "project_id": "wassap-42ca5",
+    "storage_bucket": "wassap-42ca5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219802738782:android:63eb01c6d0231e3a2a94cf",
+        "android_client_info": {
+          "package_name": "com.example.wasap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTESW2hiajnoL01PSi5W-h56iohg-xvf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
