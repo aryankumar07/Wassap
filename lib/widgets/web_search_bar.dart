@@ -5,7 +5,7 @@ class WebSearchBar extends StatefulWidget{
   @override
   State<WebSearchBar> createState() => _WebSearchBarState();
 }
-
+  
 class _WebSearchBarState extends State<WebSearchBar> {
   @override
   Widget build(BuildContext context) {
