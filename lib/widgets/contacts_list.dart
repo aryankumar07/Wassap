@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wasap/colors.dart';
 import 'package:wasap/info.dart';
+import 'package:wasap/screens/mobile_chat_screen.dart';
 
 class ContactList extends StatelessWidget{
 
@@ -17,7 +18,12 @@ class ContactList extends StatelessWidget{
                 return Column(
                   children: [
                     InkWell(
-                      onTap: (){},
+                      onTap: (){
+                        Navigator
+                        .of(context)
+                        .push(MaterialPageRoute(
+                          builder: (context)=>MobileChatScreen()));
+                      },
                       child: Padding(
                         padding: const EdgeInsets.only(bottom: 8),
                         child: ListTile(
