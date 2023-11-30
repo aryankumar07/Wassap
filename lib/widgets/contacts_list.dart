@@ -22,7 +22,10 @@ class ContactList extends StatelessWidget{
                         Navigator
                         .of(context)
                         .push(MaterialPageRoute(
-                          builder: (context)=>MobileChatScreen()));
+                          builder: (context)=>MobileChatScreen(
+                            name: 'RR',
+                            uid: "12345",
+                          )));
                       },
                       child: Padding(
                         padding: const EdgeInsets.only(bottom: 8),

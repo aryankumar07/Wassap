@@ -44,6 +44,10 @@ class AuthController{
       context: context);
   }
 
+  Stream<UserModel> userDataByid(String userID){
+    return authRepo.userData(userID);
+  }
+
 
 
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:wasap/colors.dart';
+import 'package:wasap/features/select_contacts/screens/select_contacts.screen.dart';
 import 'package:wasap/widgets/contacts_list.dart';
 
 class MobileScreen extends StatelessWidget{
@@ -46,7 +47,9 @@ class MobileScreen extends StatelessWidget{
         ),
         body: ContactList(),
         floatingActionButton: FloatingActionButton(
-          onPressed: (){},
+          onPressed: (){
+            Navigator.pushNamed(context, SelectContactScreen.routeName);
+          },
           backgroundColor: tabColor,
           child: Icon(Icons.comment,color: Colors.white,),
         ),
